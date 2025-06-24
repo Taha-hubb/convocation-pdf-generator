@@ -26,8 +26,8 @@ This PHP web application enables preselected students to securely download their
 
 ## 🚀 Live Demo
 
-🔗 [Click here to access the live project](https://ena-convocation.000webhostapp.com)  
-> *(Replace this URL with your real hosting link once deployed)*
+🔗 [Click here to access the live project](https://enaagadir.ac.ma/convocation.php)  
+
 
 ---
 
@@ -76,7 +76,7 @@ convocation-pdf-generator/
 
 ## 📬 Contact
 
-* 📧 [taha@enaagadir.ac.ma](mailto:taha@enaagadir.ac.ma)
+* 📧 [taha@enaagadir.ac.ma](mailto:professionalanouar@gmail.com)
 * 🌐 [Portfolio](https://taha-hubb.github.io)
 
 ---
