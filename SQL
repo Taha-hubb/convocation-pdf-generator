@@ -1,1 +1,36 @@
+## 📄 SQL Structure: `feuil1_structure.sql`
+
+```sql
+-- Table structure for table `Feuil1`
+
+CREATE TABLE `Feuil1` (
+  `ID` INT NOT NULL AUTO_INCREMENT,
+  `NOM` VARCHAR(100) NOT NULL,
+  `PRENOM` VARCHAR(100) NOT NULL,
+  `CNE` VARCHAR(20) NOT NULL,
+  `CIN` VARCHAR(20) NOT NULL,
+  `Numero` VARCHAR(20) NOT NULL,
+  `Numero_Salle` VARCHAR(20) NOT NULL,
+  PRIMARY KEY (`ID`),
+  UNIQUE KEY `unique_cne_cin` (`CNE`, `CIN`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+### ✅ Bonus: `Date_impression` Table (Optional)
+
+This table logs when a student downloads their convocation:
+
+```sql
+-- Table to log PDF download timestamps
+
+CREATE TABLE `Date_impression` (
+  `ID` INT NOT NULL AUTO_INCREMENT,
+  `Cin` VARCHAR(20) NOT NULL,
+  `Date_Time` DATETIME NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+---
+
 
