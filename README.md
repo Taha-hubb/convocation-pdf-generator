@@ -27,6 +27,7 @@ This PHP web application enables preselected students to securely download their
 ## 🚀 Live Demo
 
 🔗 [Click here to access the live project](https://enaagadir.ac.ma/convocation.php)  
+Use D144029495 as CNE and J597750 as CIN to test the program
 
 
 ---
